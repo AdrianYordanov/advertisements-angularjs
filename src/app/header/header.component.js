@@ -1,7 +1,7 @@
 angular
     .module('advertisements.header').
     component('advertisements.header', {
-        templateUrl: './header/header.template.html',
+        templateUrl: 'app/header/header.template.html',
         controller: ['$location', function ($location) {
             this.welcomeMessage = "Welcome, user!";
             this.welcomeLink = "/advertisements";

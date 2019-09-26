@@ -5,7 +5,7 @@ angular.
     $locationProvider.hashPrefix('');
     $routeProvider
       .when('/', {
-        template: '<h1>Home</h1>',
+        template: '<home></home>',
       })
       .when('/contacts', {
         template: '<h1>Contacts</h1>',

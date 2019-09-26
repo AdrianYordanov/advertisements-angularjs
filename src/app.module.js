@@ -5,5 +5,6 @@ angular
   .module('advertisements', [
     'ngRoute',
     'advertisements.header',
-    'advertisements.footer'
+    'advertisements.footer',
+    'advertisements.home'
   ]);

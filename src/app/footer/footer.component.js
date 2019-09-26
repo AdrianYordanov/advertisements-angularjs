@@ -1,5 +1,5 @@
 angular
     .module('advertisements.footer')
     .component('advertisements.footer', {
-        templateUrl: './footer/footer.template.html',
+        templateUrl: 'app/footer/footer.template.html',
     })

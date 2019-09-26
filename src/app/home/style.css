@@ -1,0 +1,10 @@
+#home-image {
+    width: 100%;
+    height: auto;
+    top: 56px;
+    bottom: 70px;
+    position: absolute;
+    background-image: url("/assets/cover.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
