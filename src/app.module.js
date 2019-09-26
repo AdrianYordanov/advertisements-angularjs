@@ -6,5 +6,6 @@ angular
     'ngRoute',
     'advertisements.header',
     'advertisements.footer',
-    'advertisements.home'
+    'advertisements.home',
+    'advertisements.contacts'
   ]);

@@ -8,7 +8,7 @@ angular.
         template: '<home></home>',
       })
       .when('/contacts', {
-        template: '<h1>Contacts</h1>',
+        template: '<contacts></contacts>',
       })
       .when('/advertisements', {
         template: '<h1>Advertisements</h1>',
