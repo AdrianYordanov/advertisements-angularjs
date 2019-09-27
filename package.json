@@ -30,7 +30,7 @@
     "postupdate-deps": "npm run copy-libs",
     "copy-libs": "cpx \"node_modules/{angular,angular-*,bootstrap,jquery,html5-boilerplate/dist}/**/*\" src/lib -C",
     "prestart": "npm install",
-    "start": "http-server -a localhost -p 8000 -c-1 ./src",
+    "start": "http-server -P http://localhost:3001 -o -a localhost -p 8000 -c-1 ./src",
     "pretest": "npm install",
     "test": "karma start karma.conf.js",
     "test-single-run": "npm test -- --single-run",

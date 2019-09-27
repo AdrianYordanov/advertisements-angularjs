@@ -7,5 +7,7 @@ angular
     'advertisements.header',
     'advertisements.footer',
     'advertisements.home',
-    'advertisements.contacts'
+    'advertisements.contacts',
+    'advertisements.advertisement',
+    'advertisements.advertisements',
   ]);

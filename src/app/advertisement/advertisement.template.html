@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="app/advertisement/style.css"/>
+<div class="card h-100">
+        <img class="card-img-top" ng-src={{$ctrl.advertisement.image}} />
+        <div class="card-body">
+            <h4 class="card-title">
+                <a href="#">{{$ctrl.advertisement.title}}</a>
+            </h4>
+            <h5>{{$ctrl.advertisement.price.toFixed(2)}}</h5>
+            <span class="card-text">{{$ctrl.advertisement.description}}</span>
+        </div>
+        <div class="card-footer">
+            <small class="text-muted">
+                Owner: <a href="#">{{$ctrl.advertisement.owner}}</a>
+            </small>
+        </div>
+    </div>

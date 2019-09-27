@@ -1,0 +1,7 @@
+<link rel="stylesheet" href="app/advertisements/style.css"/>
+<div class="container-fluid">
+    <div class="row">
+        <advertisement class="col-xl-3 col-lg-4 col-md-5 col-sm-10" ng-repeat="ad in $ctrl.advertisements" advertisement=ad></advertisement>
+    </div>
+    {this.conditionalPagination(reducedData.length)}
+</div>
