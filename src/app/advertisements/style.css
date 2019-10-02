@@ -1,10 +1,5 @@
-#adsCount {
-    padding: 40px;
-    text-align: center;
-    background-color: gray;
-}
-  
-.fullWidth {
-    max-width: 90% !important;
-    margin: 0 auto;
+@media (max-width: 767.98px) {
+    .row {
+        justify-content: center;
+    }
 }

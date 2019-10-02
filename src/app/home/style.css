@@ -8,3 +8,9 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
+
+@media (max-width: 900px), (max-height: 389px) {
+    #home-image {
+        background-size: contain;
+    }
+}
